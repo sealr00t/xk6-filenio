@@ -9,7 +9,7 @@ xk6 build v0.37.0 --with github.com/sealr00t/xk6-file@latest
 
 ## Example
 ```javascript
-import file from 'k6/x/file';
+import file from 'k6/x/filenio';
 
 const filepath = 'sample-output.txt';
 

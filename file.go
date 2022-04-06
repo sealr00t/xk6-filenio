@@ -2,7 +2,7 @@
 // Use of this source code is governed by the Apache 2.0
 // license that can be found in the LICENSE.txt file.
 
-package file
+package filenio
 
 import (
 	"bytes"
@@ -15,11 +15,11 @@ import (
 )
 
 func init() {
-	modules.Register("k6/x/file", new(FILE))
+	modules.Register("k6/x/file", new(FILENIO))
 }
 
 // FILE is the k6 extension
-type FILE struct{}
+type FILENIO struct{}
 
 // Write string to file
 func (*FILE) WriteString(path string, s string) error {

@@ -4,7 +4,7 @@
 
 ## Build
 ```shell
-xk6 build v0.36.0 --with github.com/avitalique/xk6-file@latest
+xk6 build v0.37.0 --with github.com/avitalique/xk6-file@latest
 ```
 
 ## Example
@@ -16,6 +16,7 @@ const filepath = 'sample-output.txt';
 export default function () {
     file.writeString(filepath, 'New file. First line.\n');
     file.appendString(filepath, `Second line. VU: ${__VU}  -  ITER: ${__ITER}`);
+    file.removeLines(filepath, 1, 1);
 }
 ```
 

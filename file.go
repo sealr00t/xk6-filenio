@@ -1,4 +1,4 @@
-// Copyright 2021 Vitali Asheichyk
+// Copyright 2022 sealr00t
 // Use of this source code is governed by the Apache 2.0
 // license that can be found in the LICENSE.txt file.
 

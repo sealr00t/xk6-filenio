@@ -15,7 +15,7 @@ import (
 )
 
 func init() {
-	modules.Register("k6/x/file", new(FILENIO))
+	modules.Register("k6/x/filenio", new(FILENIO))
 }
 
 // FILE is the k6 extension

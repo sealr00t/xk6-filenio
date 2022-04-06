@@ -1,4 +1,4 @@
-module github/sealr00t/xk6-file
+module github/sealr00t/xk6-filenio
 
 go 1.18
 

@@ -22,7 +22,7 @@ func init() {
 type FILENIO struct{}
 
 // Write string to file
-func (*FILE) WriteString(path string, s string) error {
+func (*FILENIO) WriteString(path string, s string) error {
 	f, err := os.Create(path)
 	if err != nil {
 		return err
@@ -36,7 +36,7 @@ func (*FILE) WriteString(path string, s string) error {
 }
 
 // Append string to file
-func (*FILE) AppendString(path string, s string) error {
+func (*FILENIO) AppendString(path string, s string) error {
 	f, err := os.OpenFile(path,
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {

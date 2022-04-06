@@ -4,7 +4,7 @@
 
 ## Build
 ```shell
-xk6 build v0.37.0 --with github.com/sealr00t/xk6-file@latest
+xk6 build v0.36.0 --with github.com/sealr00t/xk6-filenio@latest
 ```
 
 ## Example

@@ -18,7 +18,7 @@ func init() {
 	modules.Register("k6/x/filenio", new(FILENIO))
 }
 
-// FILE is the k6 extension
+// FILENIO is the k6 extension
 type FILENIO struct{}
 
 // Write string to file

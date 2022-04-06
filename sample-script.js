@@ -1,4 +1,4 @@
-import file from 'k6/x/file';
+import file from 'k6/x/filenio';
 
 const filepath = 'sample-output.txt';
 
